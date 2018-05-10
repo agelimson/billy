@@ -161,6 +161,7 @@ def update(old, new, collection, sneaky_update_filter=None):
                     need_save = True
             else:
                 old[key] = value
+                print(value)
                 need_save = True
 
         # remove old +key field if this field no longer has a +
